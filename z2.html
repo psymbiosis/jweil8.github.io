@@ -1,10 +1,11 @@
 <html>
-    <head><title>#8</title>
-    <script type="text/javascript" src="/brython.js"></script>
-    </head> 
+<head><title>#8</title>
+<script type="text/javascript" src="/brython.js"></script>
+</head> 
 
-    <body onload= "brython(1)" >
-    <script type="text/python">
+<body onload="brython(1)" >
+
+<script type="text/python">
             from browser import document, alert
 
 def echo(ev):
@@ -12,9 +13,13 @@ def echo(ev):
 
 document["test"].bind("click", echo)
 </script>
+
 <p>Your name is : <input id="zone" autocomplete="off">
         <h1>Zach Lavine</h1>
+        
+        <p>Your name is : <input id="zone" autocomplete="off">
         <button id="test">clic !</button>
+
         <p>Zach Lavine with the dagger last night to finish off Jimmy "Buckets" Butler and the Philadelphia 76er's
         </p>
 
